@@ -5,3 +5,4 @@ const html =
     <li>Second item</li>
     <li>Third item</li>`;
 target.innerHTML = html;
+target.setAttribute('class', 'my-list');

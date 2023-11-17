@@ -1,5 +1,5 @@
 'use strict';
-let lista = [];
+const lista = [];
 for (let i = 1; i <= 5; i++) {
   let num = +prompt(`Give ${i}. number:`);
   lista.push(num);

@@ -2,7 +2,7 @@
 function concat(array) {
     var longname = '';
     for (let i =0; i < array.length; i++) {
-        longname += '' + array[i];
+        longname += array[i];
     }
     return longname;
 }
